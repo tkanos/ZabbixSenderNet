@@ -21,6 +21,7 @@ namespace ZabbixSenderNet.Test
 
                 ZabbixSender sender = new ZabbixSender(zabbixIp, zabbixPort);
 
+                //This is when we send ourvalue "0" to zabbix
                 var result = sender.Send(host, key, "0");
 
                 Console.WriteLine("success : {0}, processed : {1}, failed : {2}, total : {3}, seconds: {4}",
