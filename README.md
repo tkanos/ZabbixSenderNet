@@ -6,5 +6,5 @@ First you need to create a zabbix trapper item on Zabbix [https://www.zabbix.com
 
 Then test this app ;)
 
-Enjoy,
+Enjoy :D,
 F.
